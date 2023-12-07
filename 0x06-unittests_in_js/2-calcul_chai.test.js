@@ -1,9 +1,3 @@
-const calculateNumber = (type, a, b) => {
-    if (type === 'SUM') {
-      return Math.round(a) + Math.round(b);
-    }
-    if (type === 'SUBTRACT') {
-      return Math.round(a) - Math.round(b);
   const { expect } = require('chai');
   const calculateNumber = require('./2-calcul_chai');
   
